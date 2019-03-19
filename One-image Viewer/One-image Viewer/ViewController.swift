@@ -46,7 +46,7 @@ class ViewController: UIViewController,UIImagePickerControllerDelegate, UINaviga
          print("MySelect-\(selectedImage)")
 
         picker.dismiss(animated: false, completion: {
-          print("123456")
+         // print("123456")
             let clipper = MyPhotoClipperViewController()
             clipper.delegate = self
             clipper.img = selectedImage
